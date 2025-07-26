@@ -16,6 +16,9 @@ public class StudentDatabase {
         Student student5 = new Student("Chloe", 4.1, 9, "Female", Arrays.asList("Soccer", "Baseball", "Volleyball", "Gymnastics"));
         Student student6 = new Student("Cassandra", 4.2, 9, "Female", Arrays.asList("Dancing", "Volleyball", "Futsal", "Gymnastics"));
 
+        Student student7 = new Student("Yzo", 3.8, 5, "Female", Arrays.asList("Basketball", "Baseball", "Volleyball", "Gymnastics"));
+        Student student8 = new Student("Julia", 4.0, 3, "Female", Arrays.asList("Dancing", "Volleyball", "Futsal", "Drama"));
+
         return Arrays.asList(student1, student2, student3, student4, student5, student6);
     }
 

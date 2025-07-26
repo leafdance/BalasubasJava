@@ -39,13 +39,13 @@ public class ConsumerExample2 {
 
         Consumer<String> consumer1 = (s) -> System.out.println("\n" + s.toUpperCase());
         consumer1.accept("james magno");
-        System.out.println("\n");
+        System.out.println(" ");
         printStudents();
-        System.out.println("\n");
+        System.out.println(" ");
         printStudentNamesAndActivities();
-        System.out.println("\n");
+        System.out.println(" ");
         printStudentNamesAndActivitiesUsingCondition();
-        System.out.println("\n");
+        System.out.println(" ");
     }
 
 }
